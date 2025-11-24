@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Replace with your actual API key
-GOOGLE_API_KEY = "AIzaSyAkys5WBqlGd72s_sDyWgRe9V1c_LaFwH0"
+GOOGLE_API_KEY = "your_api_key"
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
@@ -15,4 +15,5 @@ try:
             print("-" * 30)
 except Exception as e:
     print(f"Error: {e}")
+
     print("Check if your API key is valid.")
